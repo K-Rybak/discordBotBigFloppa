@@ -8,7 +8,7 @@ let command_list = [{
     about: 'Повторяет сообщение пользователя'
 },
 {
-    name: 'hello',
+    name: 'hi',
     out: func.hello,
     about: 'Приветствие'
 },
@@ -23,19 +23,19 @@ let command_list = [{
     about: 'Суммирует все аргументы'
 },
 {
-    name: 'heads_or_tails',
+    name: 'coin',
     out: func.headsOrTails,
     about: 'Орел или решка'
 },
 {
-    name: 'change_nick',
+    name: 'nick',
     out: func.changeNick,
     about: 'Смена никнейма'
 },
 {
     name: 'help',
     out: func.help,
-    about: 'Показать все комманды'
+    about: 'Показать все команды'
 }];
 
 module.exports.comms_list = command_list;
