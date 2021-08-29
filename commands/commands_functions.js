@@ -73,5 +73,5 @@ module.exports.help = (bot, msg, arg) => {
            ' - ' + listOfCommands.comms_list[comm_count].about + '\n';
     }
 
-    msg.channel.send('Мои возможности:\n' + list);
+    msg.channel.send('```Мои возможности:\n' + list + '```');
 }
