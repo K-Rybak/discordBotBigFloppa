@@ -66,12 +66,12 @@ module.exports.changeNick = function (bot, msg, args) {
 }
 
 module.exports.help = (bot, msg, arg) => {
-    let listOfCommands = ''
+    let list = ''
     
     for (comm_count in listOfCommands.comms_list) {
-        listOfCommands += listOfCommands.comms_list[comm_count].name +
+        list += listOfCommands.comms_list[comm_count].name +
            ' - ' + listOfCommands.comms_list[comm_count].about + '\n'
     }
 
-    msg.channel.send('Мои возможности: ' + '\n' + listOfCommands);
+    msg.channel.send('Мои возможности: ' + '\n' + list);
 }
