@@ -70,8 +70,8 @@ module.exports.help = (bot, msg, arg) => {
     
     for (comm_count in listOfCommands.comms_list) {
         list += listOfCommands.comms_list[comm_count].name +
-           ' - ' + listOfCommands.comms_list[comm_count].about + '\n'
+           ' - ' + listOfCommands.comms_list[comm_count].about + '\n';
     }
 
-    msg.channel.send('Мои возможности: ' + '\n' + list);
+    msg.channel.send('Мои возможности:\n' + list);
 }
