@@ -34,7 +34,7 @@ bot.on('message', (msg) => {
                 .setTitle('Ошибочка :(')
                 .setAuthor(msg.guild.name)
                 .setDescription('Такой команды нет')
-                .setFooter('Ваш бот © 2021');
+                .setFooter('Bot VaSaBoLiA © 2021');
         
                  msg.reply(embed);
             }

@@ -19,7 +19,7 @@ module.exports.hello = (bot, msg, args) => {
         .setTitle('Привет :)')
         .setAuthor(msg.guild.name)
         .setDescription('Я гоню быстро')
-        .setFooter('Ваш бот © 2021');
+        .setFooter('Bot VaSaBoLiA © 2021');
 
     msg.reply(embed);
 }
