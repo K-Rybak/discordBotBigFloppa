@@ -32,7 +32,7 @@ module.exports.ping = function (bot, msg, args) {
 module.exports.sum = function (bot, msg, args){
     const numArgs = args.map(x => parseFloat(x));
     const sum = numArgs.reduce((counter, x) => counter += x);
-    msg.reply(`Сумма всех введеных чисел: ${sum}!`)
+    msg.reply(`Сумма всех введённых чисел: ${sum}!`)
 }
 
 module.exports.headsOrTails = function (bot, msg, args) {
